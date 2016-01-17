@@ -657,7 +657,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 57436F1288560DA59E99F22F /* Pods-AlgorithmicsTests.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(VALID_ARCHS=i386 x86_64)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AlgorithmicsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -671,7 +671,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F2B122FDD41337D2A531620E /* Pods-AlgorithmicsTests.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(VALID_ARCHS=i386 x86_64)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AlgorithmicsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
