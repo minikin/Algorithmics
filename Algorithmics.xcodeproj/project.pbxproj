@@ -139,6 +139,7 @@
 			children = (
 				CE2344501C4BD0F9005963E6 /* Assets.xcassets */,
 				CE74A7E31C4C246C00DFBB79 /* Controllers */,
+				CE25DF0A1C4C357500A2EE3B /* Extensions */,
 				CE74A7E61C4C248500DFBB79 /* Helpers */,
 				CE74A7E51C4C247E00DFBB79 /* Models */,
 				CE74A7E71C4C249F00DFBB79 /* Storyboards */,
@@ -164,6 +165,14 @@
 				CE23446B1C4BD0F9005963E6 /* Info.plist */,
 			);
 			path = AlgorithmicsUITests;
+			sourceTree = "<group>";
+		};
+		CE25DF0A1C4C357500A2EE3B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		CE74A7E31C4C246C00DFBB79 /* Controllers */ = {
@@ -657,7 +666,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 57436F1288560DA59E99F22F /* Pods-AlgorithmicsTests.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
+				ARCHS = (
+					i386,
+					x86_64,
+				);
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AlgorithmicsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -671,7 +683,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F2B122FDD41337D2A531620E /* Pods-AlgorithmicsTests.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
+				ARCHS = (
+					i386,
+					x86_64,
+				);
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AlgorithmicsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
