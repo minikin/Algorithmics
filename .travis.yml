@@ -1,5 +1,12 @@
 language: objective-c 
 osx_image: xcode7.2
-xcode_workspace: Algorithmics.xcworkspace
-xcode_scheme: Algorithmics
-xcode_sdk: iphonesimulator9.2
+
+env:
+   global:
+   - LANG=en_US.UTF-8
+   - WORKSPACE="Algorithmics.xcworkspace"
+   - IOS_SCHEME="Algorithmics"
+   - IOS_SDK=iphonesimulator9.2
+
+before_install:
+- gem install xcpretty --no-rdoc --no-ri --no-document --quiet
