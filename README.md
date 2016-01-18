@@ -1,7 +1,7 @@
 
-![](https://dl.dropboxusercontent.com/s/qzha2fis1zmebcm/ALGORITHMICS%202%20%281%29.png)
+![Algorithmics banner](https://dl.dropboxusercontent.com/s/n66q7meysh6oy2f/ALGORITHMICS%202%20%282%29.png)
 
-![](https://travis-ci.org/minikin/Algorithmics.svg?branch=master)
+![Build Status](https://travis-ci.org/minikin/Algorithmics.svg?branch=master)
 
 ###More details soon.
 
