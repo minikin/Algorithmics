@@ -4,27 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Alamofire.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Charts.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PSOperations.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Algorithmics.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-AlgorithmicsTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-AlgorithmicsUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,32 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0A6C9FD75CCD0B78C9AC8DC05C29ED29</key>
+		<key>832EAA030F278BCE6965831280E582B5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0F8B2A9A32C85E0539E86503B0860862</key>
+		<key>BEC9FA7773CB795EBC19F44E0DE7CDE0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1F72E489F419A8D68565172D109FD6AA</key>
+		<key>C6828C2508515BC0428D6BDAA1292DC9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>24090FBCEF7A50AE384678B5C071804B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>432ECC54282C84882B482CCB4CF227FC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DA7E7D938FEC7DE315DD0EA1950DBDAD</key>
+		<key>C7AC7804BE17767A468FAD8FA6586760</key>
 		<dict>
 			<key>primary</key>
 			<true/>

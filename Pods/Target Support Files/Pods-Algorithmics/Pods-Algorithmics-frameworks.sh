@@ -84,12 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-Algorithmics/Alamofire.framework"
   install_framework "Pods-Algorithmics/Charts.framework"
+  install_framework "Pods-Algorithmics/PSOperations.framework"
   install_framework "Pods-Algorithmics/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-Algorithmics/Alamofire.framework"
   install_framework "Pods-Algorithmics/Charts.framework"
+  install_framework "Pods-Algorithmics/PSOperations.framework"
   install_framework "Pods-Algorithmics/SwiftyJSON.framework"
 fi
