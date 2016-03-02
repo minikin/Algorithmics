@@ -7,6 +7,7 @@ target 'Algorithmics' do
 pod 'Alamofire', '~> 3.0'
 pod 'SwiftyJSON', '~> 2.3'
 pod 'Charts'
+pod 'PSOperations'
 
 end
 
