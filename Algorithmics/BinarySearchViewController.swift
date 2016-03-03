@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import PSOperations
 
 class BinarySearchViewController: UIViewController {
   
   let queue = NSOperationQueue()
+  
+  
   var dictionaryOfStrings = [Int:String]()
   var arrayOfString = [String]()
 
@@ -19,9 +22,7 @@ class BinarySearchViewController: UIViewController {
 
       // Do any additional setup after loading the view.
 
-//      dictionaryOperation()
-    
-      buildArrayOperation()
+
     }
   
 //  func dictionaryOperation(){
@@ -37,18 +38,18 @@ class BinarySearchViewController: UIViewController {
 //  }
 //  
   
-  func buildArrayOperation() {
-        
-    let binaryOperation2 = NSBlockOperation { () in
-      self.arrayOfString  = DataStucture.testArray(10000)
-    }
-    
-    binaryOperation2.completionBlock = {
-      print(self.arrayOfString)
-    }
-    
-    queue.addOperation(binaryOperation2)
-  }
+//  func buildArrayOperation() {
+//        
+//    let binaryOperation2 = NSBlockOperation { () in
+//      self.arrayOfString  = DataStucture.testArray(10000)
+//    }
+//    
+//    binaryOperation2.completionBlock = {
+//      print(self.arrayOfString)
+//    }
+//    
+//    queue.addOperation(binaryOperation2)
+//  }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

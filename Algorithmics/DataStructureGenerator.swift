@@ -8,16 +8,15 @@
 
 import Foundation
 
-
 struct DataStucture {
   
   // MARK: - Build dictionary
   
-  static func testDictionary(listSize:Int) -> [Int:String] {
+  static func buildDictionary(listSize:Int) -> [Int:String] {
     
     var stringList = [Int:String]()
     
-    var i = 1
+    var i = 0
     
     while i < listSize {
       i++
@@ -31,11 +30,11 @@ struct DataStucture {
   
   // MARK: - Build array of string
   
-  static func testArray(listSize: Int) ->  [String] {
+  static func buildArray(listSize: Int) ->  [String] {
     
     var stringList = [String]()
     
-    var i = 1
+    var i = 0
     
     while i < listSize {
       i++
@@ -44,7 +43,6 @@ struct DataStucture {
     }
     
     return stringList
-    
   }
   
 

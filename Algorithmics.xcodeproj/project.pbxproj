@@ -26,6 +26,7 @@
 		CE5074B51C4CFB5200C91BF1 /* roundToPlacesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5074B41C4CFB5200C91BF1 /* roundToPlacesExtension.swift */; };
 		CE55B1B91C5566D60006D2C6 /* DataStructureGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE55B1B81C5566D60006D2C6 /* DataStructureGenerator.swift */; };
 		CE9820AD1C553DAE0087E371 /* BinarySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9820AC1C553DAE0087E371 /* BinarySearchViewController.swift */; };
+		CEEAE86B1C8865D0007281F4 /* FileSaveHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEAE86A1C8865D0007281F4 /* FileSaveHelper.swift */; };
 		FE2695468D55B7676153804B /* Pods_Algorithmics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2724F368B2A17DE1E93215D2 /* Pods_Algorithmics.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,7 @@
 		CE5074B41C4CFB5200C91BF1 /* roundToPlacesExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roundToPlacesExtension.swift; sourceTree = "<group>"; };
 		CE55B1B81C5566D60006D2C6 /* DataStructureGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructureGenerator.swift; sourceTree = "<group>"; };
 		CE9820AC1C553DAE0087E371 /* BinarySearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearchViewController.swift; sourceTree = "<group>"; };
+		CEEAE86A1C8865D0007281F4 /* FileSaveHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSaveHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +230,7 @@
 			children = (
 				CE2892B81C55141900D4E301 /* benchmarkSwift.swift */,
 				CE55B1B81C5566D60006D2C6 /* DataStructureGenerator.swift */,
+				CEEAE86A1C8865D0007281F4 /* FileSaveHelper.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 				CE55B1B91C5566D60006D2C6 /* DataStructureGenerator.swift in Sources */,
 				CE5074B21C4CFAB600C91BF1 /* StockBuySellToMaxProfit.swift in Sources */,
 				CE2892B91C55141900D4E301 /* benchmarkSwift.swift in Sources */,
+				CEEAE86B1C8865D0007281F4 /* FileSaveHelper.swift in Sources */,
 				CE2892C11C551CFD00D4E301 /* Euclidian.swift in Sources */,
 				CE2892BD1C5518D100D4E301 /* PrimesNumbers.swift in Sources */,
 				CE23444A1C4BD0F9005963E6 /* AppDelegate.swift in Sources */,

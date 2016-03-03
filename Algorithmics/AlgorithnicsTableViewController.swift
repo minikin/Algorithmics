@@ -7,12 +7,11 @@
 //
 
 import UIKit
+import PSOperations
 
 class AlgorithnicsTableViewController: UITableViewController {
   
-  
-  let test = StockBuySell()
-
+  let operationQueue = OperationQueue()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,8 +21,9 @@ class AlgorithnicsTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-
       
+      let arrayOperation = BuildArrayOperation(arraySize: 1000000)
+      operationQueue.addOperation(arrayOperation)
       
     }
 
