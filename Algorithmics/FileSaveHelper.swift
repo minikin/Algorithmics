@@ -5,6 +5,9 @@
 //  Created by Sasha Minikin on 3/3/16.
 //  Copyright © 2016 Minikin. All rights reserved.
 //
+//  Thank you for the tips to Jeremiah Jessel : https://twitter.com/JCubedApps
+//
+// Read more : http://www.learncoredata.com/how-to-save-files-to-disk/
 
 import Foundation
 import UIKit
