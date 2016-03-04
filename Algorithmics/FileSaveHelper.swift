@@ -186,6 +186,20 @@ class FileSaveHelper {
     
   }
   
+  func getJSONDArrayData() throws -> NSArray {
+    guard fileExists else {
+      throw FileErrors.FileNotFound
+    }
+    do {
+      let data = try NSData(contentsOfFile: fullyQualifiedPath, options: NSDataReadingOptions.DataReadingMappedIfSafe)
+      let jsonData = try NSJSONSerialization.JSONObjectWithData(data, options: .AllowFragments) as! NSArray
+      return jsonData
+    } catch {
+      throw FileErrors.FileNotRead
+    }
+    
+  }
+  
   // MARK:- Json Converting
   
   /**

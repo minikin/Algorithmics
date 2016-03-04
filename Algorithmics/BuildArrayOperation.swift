@@ -25,7 +25,6 @@ class BuildArrayOperation: Operation {
     
     super.init()
 
-    
     name = "Array Operation"
   }
   

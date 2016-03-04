@@ -11,21 +11,27 @@ import PSOperations
 
 class AlgorithnicsTableViewController: UITableViewController {
   
+  var dataArray = [String]()
+  var dataDict = [String:String]()
+  
   let operationQueue = OperationQueue()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
       
-      let arrayOperation = BuildArrayOperation(arraySize: 1000000)
-      operationQueue.addOperation(arrayOperation)
+     let jsonFile = FileSaveHelper(fileName:"arrayOfStrings", fileExtension: .JSON, subDirectory: "SavingFiles", directory: .DocumentDirectory)
       
+      do {
+        dataArray = try jsonFile.getJSONDArrayData() as! [String]
+        print("Array loaded!")
+      } catch {
+        print(error,".Generating array...")
+        let arrayOperation = BuildArrayOperation(arraySize: 1000000)
+        operationQueue.addOperation(arrayOperation)
+      }
+    
     }
+  
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

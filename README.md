@@ -5,6 +5,8 @@
 
 #Algorithmics
 
+##Please, notice the project in active development. I'm going to push a bunch of updates this weekend. Thank you.
+
 Algorithmics is a project started by my interest in implementing different algorithms and data structure with Swift language. 
 
 This project inspired by:
